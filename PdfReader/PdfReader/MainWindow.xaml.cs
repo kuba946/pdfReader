@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Windows.depe
 
 namespace PdfReader
 {
@@ -24,7 +23,8 @@ namespace PdfReader
         public MainWindow()
         {
             InitializeComponent();
-            pdfViewer.Navigate("C:\\Users\\HP\\source\\repos\\pdfReader\\PdfReader\\faktura-SP-sierpien.pdf");
+            //pdfViewer.Navigate("C:\\Users\\HP\\source\\repos\\pdfReader\\PdfReader\\faktura-SP-sierpien.pdf");
+            webBrowser.Navigate("C:\\Users\\HP\\source\\repos\\pdfReader\\PdfReader\\file.pdf");
         }
     }
 }
