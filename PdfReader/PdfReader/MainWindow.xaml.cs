@@ -23,8 +23,7 @@ namespace PdfReader
         public MainWindow()
         {
             InitializeComponent();
-            //pdfViewer.Navigate("C:\\Users\\HP\\source\\repos\\pdfReader\\PdfReader\\faktura-SP-sierpien.pdf");
-            webBrowser.Navigate("C:\\Users\\HP\\source\\repos\\pdfReader\\PdfReader\\file.pdf");
+            webBrowser.Navigate("C:\\Users\\Lenovo\\source\\repos\\pdfReader\\PdfReader\\file.pdf");
         }
     }
 }

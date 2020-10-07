@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <WebBrowser x:Name="webBrowser" Source="https://google.com" Width="600" Height="600"  />
+        <WebBrowser x:Name="webBrowser" Source="https://google.com" Width="700" Height="400"  />
     </Grid>
 </Window>
 
